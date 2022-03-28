@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.personalSite</groupId>
 	<artifactId>react</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2</version>
 	<name>react</name>
 	<description>React with Springboot</description>
 	<properties>
@@ -41,7 +41,7 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
-			<version>2.6.4</version>
+			<version>2.6.5</version>
 		</dependency>
 
 		<dependency>
@@ -130,8 +130,7 @@
 							<goal>repackage</goal>
 						</goals>
 						<configuration>
-							<classifier>spring-boot</classifier>
-							<mainClass>com.personalSite.react.ReactApplication</mainClass>
+							<attach>false</attach>
 						</configuration>
 					</execution>
 				</executions>
