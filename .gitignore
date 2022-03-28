@@ -31,3 +31,6 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### React Site ###
+**/node_modules/.cache/
