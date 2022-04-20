@@ -1,5 +1,14 @@
 HELP.md
-target/
+target/antrun
+target/classes
+target/generated-sources
+target/generated-test-sources
+target/maven-archiver
+target/maven-status
+target/node
+target/surefire-reports
+target/test-classes
+!target/*.jar
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
@@ -34,3 +43,4 @@ build/
 
 ### React Site ###
 **/node_modules/.cache/
+out/
