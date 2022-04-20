@@ -7,13 +7,13 @@ module.exports = {
     extend: {
       colors: {
         themeRed: "#BF6374",
-        themeDarkBlue: "#536173",
-        themeBlack: "#2F3640",
+        themeDarkBlue: "#333333",
+        themeBlack: "#222222",
         themeLightBlue: "#93BFBB",
         themeGreen: "#A7BF8F",
-        themeText: "#CCCCCC",
+        themeText: "#DDDDDD",
       },
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography")],
 };
